@@ -1,0 +1,41 @@
+body {
+  margin: 0px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+nav ul li {
+    display: inline-block;
+  }
+  #homeimg {
+    height: 300px;
+    width: auto;
+  }
+  header {
+    background-color: #DA89E6;
+    color: #C6E5AC;
+  }
+  .greenlink {
+    color: #C6E5AC;
+  }
+  .active {
+       background-color: #C6E5AC;
+       color: #DA89E6;
+       border-radius: 3px 3px 0px 0px;
+    }
+  header, section {
+    padding: 5% 5% 0px 5%;
+  }
+  .nounderline {
+    text-decoration: none;
+    padding: 10px 10px 0px 10px;
+  }
+  img {
+    opacity: 0.5;
+    transition: opacity .25s ease-in-out;
+  }
+  
+  img:hover {
+    opacity: 1.0;
+  }
+  
+    
